@@ -3,7 +3,7 @@
 
   # Poco Loco — E-Ticaret Platformu
 
-  İfade özgürlüğü temalı bir çanta markası için sıfırdan geliştirdiğim, canlı ödeme alan uçtan uca e-ticaret sitesi.
+  Butik bir çanta markası için sıfırdan geliştirdiğim, canlı ödeme alan uçtan uca e-ticaret sitesi.
 
   **[poco--loco.com](https://poco--loco.com) adresinde yayında**
 </div>

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="images/logo.jpg" alt="Poco Loco logo" width="220">
 
-  # Poco Loco — E-Ticaret Platformu
+  # Poco Loco E-Ticaret Platformu
 
   Butik bir çanta markası için sıfırdan geliştirdiğim, canlı ödeme alan uçtan uca e-ticaret sitesi.
 
@@ -18,11 +18,11 @@ Poco Loco, butik bir çanta markasının tüm satış operasyonunu yürüten ger
 
 ## Öne Çıkan Özellikler
 
-- 💳 **Uçtan uca ödeme** — iyzico entegrasyonu ile gerçek kart ödemesi; sipariş oluşturma ve ödeme callback akışı sunucu tarafında Supabase Edge Functions üzerinde çalışır
-- 📦 **Sipariş & kargo takibi** — sipariş sonrası e-posta bildirimi, kargo durumu takibi
-- 🏷️ **Promosyon kodları** — kullanım limiti ve son kullanma tarihi kontrolü ile indirim mantığı
-- 🛠️ **Yönetim paneli** — ürün, sipariş ve içerik yönetimi için ayrı admin arayüzü; Excel'e fatura/sipariş dışa aktarma
-- 🌐 **Çift dil** — i18next ile TR/EN arayüz
+- 💳 **Uçtan uca ödeme:** iyzico entegrasyonu ile gerçek kart ödemesi; sipariş oluşturma ve ödeme callback akışı sunucu tarafında Supabase Edge Functions üzerinde çalışır
+- 📦 **Sipariş & kargo takibi:** sipariş sonrası e-posta bildirimi, kargo durumu takibi
+- 🏷️ **Promosyon kodları:** kullanım limiti ve son kullanma tarihi kontrolü ile indirim mantığı
+- 🛠️ **Yönetim paneli:** ürün, sipariş ve içerik yönetimi için ayrı admin arayüzü; Excel'e fatura/sipariş dışa aktarma
+- 🌐 **Çift dil:** i18next ile TR/EN arayüz
 
 ## Mimari
 
@@ -42,7 +42,7 @@ React 18 + TypeScript (Vite)
                     └── notify-contact
 ```
 
-Ödeme ve bildirim gibi güvenlik gerektiren tüm mantık istemciden ayrıştırılıp Edge Functions'a taşınmıştır — istemci hiçbir zaman ödeme sağlayıcısıyla doğrudan konuşmaz.
+Ödeme ve bildirim gibi güvenlik gerektiren tüm mantık istemciden ayrıştırılıp Edge Functions'a taşınmıştır; istemci hiçbir zaman ödeme sağlayıcısıyla doğrudan konuşmaz.
 
 ## Teknolojiler
 
